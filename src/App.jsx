@@ -44,7 +44,6 @@ return(<div className='to-do-list'>
     {todo.map((item,index)=>
         <div>
         <li key={index}>{item}</li>
-        <button onClick={()=>{remove(todo,index)}}>remove</button>
         </div>
         )}
 </ul>
